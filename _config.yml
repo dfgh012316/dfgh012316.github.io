@@ -1,0 +1,60 @@
+# Site settings
+title: Jerry Tech
+description: My blog
+url: https://dfgh012316.github.io/
+
+timezone: Asia/Taipei
+
+# Build settings
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Navigation links
+# 在header的位置
+# header_pages:
+#   - about.md
+#   - contact.md
+#   - portfolio.md
+
+# # 在footer的位置
+# footer_links:
+#   - title: Follow Me
+#     icon: fab fa-twitter
+#     url: https://twitter.com/your-twitter-handle
+#   - title: GitHub
+#     icon: fab fa-github
+#     url: https://github.com/your-github-username
+
+# Social links
+# 放在sidebar
+social_links:
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/dfgh012316
+
+# SEO settings
+# jekyll-seo-tag 插件提供的設置
+# 詳細文檔: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# seo:
+#   type: website
+#   image: /path/to/your/image.jpg
+#   twitter:
+#     card: summary_large_image
+#     site: "@your-twitter-handle"
+#     creator: "@your-twitter-handle"
+
+
+# Google Analytics settings
+# google_analytics: UA-123456789-1
+
+# Disqus settings
+# disqus:
+#   shortname: your-disqus-shortname
+
+# 站點的變量
+# 可以在網站中使用 {{ site.author }} 來引用
+author: Jerry
+email: dfgh012316@gmail.com
