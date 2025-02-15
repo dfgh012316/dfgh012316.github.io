@@ -1,0 +1,169 @@
+avatar:
+  # 頭像圖片鏈接
+  img: /img/avatar.jpeg
+  # 是否啟用頭像效果
+  effect: false
+
+# 禁用文章頂部圖片
+disable_top_img: true
+
+menu:
+  Home: / || fas fa-home
+  About: /about/ || fas fa-id-card
+
+# 程式碼設定
+# 程式碼高亮主題
+highlight_theme: mac
+# 複製按鈕 
+highlight_copy: true
+# 顯示語言
+highlight_lang: true
+# 超過時顯示展開按鈕
+highlight_height_limit: 200
+
+darkmode:
+  # 是否啟用暗黑模式
+  enable: true
+  # 切換暗黑/明亮模式的按鈕
+  button: true
+
+# 文章設定
+toc:
+  enable: true
+  number: true
+  style_simple: false # 簡潔模式
+  expand: true # 是否展開所有目錄
+
+aside:
+  # 是否啟用側邊欄
+  enable: true
+  # 是否默認隱藏側邊欄
+  hide: false
+  # 是否在右下角顯示隱藏側邊欄的按鈕
+  button: true
+  # 移動設備上是否啟用側邊欄
+  mobile: true
+  # 側邊欄位置：left / right
+  position: right
+  display:
+    # 歸檔頁面是否顯示側邊欄
+    archive: true
+    # 標籤頁面是否顯示側邊欄
+    tag: true
+    # 分類頁面是否顯示側邊欄
+    category: true
+  card_author:
+    # 是否顯示作者信息卡片
+    enable: true
+    # 作者描述
+    description: DevOps/SRE
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/dfgh012316
+  card_announcement:
+    # 是否顯示公告卡片
+    enable: false
+    # 公告內容
+    content: This is my Blog
+  card_recent_post:
+    # 是否顯示最近文章卡片
+    enable: true
+    # 顯示文章數量，0 表示顯示所有
+    limit: 5
+    # 排序方式：date / updated
+    sort: date
+    sort_order:
+  card_newest_comments:
+    # 是否顯示最新評論卡片
+    enable: false
+    sort_order:
+    # 顯示評論數量
+    limit: 6
+    # 單位：分鐘，保存數據到 localStorage
+    storage: 10
+    # 是否顯示頭像
+    avatar: true
+  card_categories:
+    # 是否顯示分類卡片
+    enable: true
+    # 顯示分類數量，0 表示顯示所有
+    limit: 8
+    # 選擇：none / true / false
+    expand: none
+    sort_order:
+  card_tags:
+    # 是否顯示標籤卡片
+    enable: true
+    # 顯示標籤數量，0 表示顯示所有
+    limit: 40
+    # 是否啟用顏色
+    color: false
+    # 標籤排序方式：random/name/length
+    orderby: random
+    # 排序順序：1 表示升序，-1 表示降序
+    order: 1
+    sort_order:
+  card_archives:
+    # 是否顯示歸檔卡片
+    enable: true
+    # 歸檔類型：monthly / yearly
+    type: monthly
+    # 日期格式，例如：YYYY年MM月
+    format: MMMM YYYY
+    # 排序順序：1 表示升序，-1 表示降序
+    order: -1
+    # 顯示歸檔數量，0 表示顯示所有
+    limit: 8
+    sort_order:
+  card_post_series:
+    # 是否顯示系列文章卡片
+    enable: true
+    # 標題顯示系列名稱
+    series_title: false
+    # 排序方式：title 或 date
+    orderBy: 'date'
+    # 排序順序：1 表示升序，-1 表示降序
+    order: -1
+  card_webinfo:
+    # 是否顯示網站信息卡片
+    enable: false
+    # 是否顯示文章數量
+    post_count: true
+    # 是否顯示最後推送日期
+    last_push_date: true
+    sort_order:
+    # 發佈日期與當前日期的時間差
+    # 格式：Month/Day/Year Time 或 Year/Month/Day Time
+    # 如果不啟用此功能，請留空
+    runtime_date:
+
+footer:
+  framework: Hexo
+  framework_url: https://hexo.io
+  theme: Butterfly
+  theme_url: https://github.com/jerryc127/hexo-theme-butterfly
+  custom_text: '© 2025 Chien-Yu Chuang. All rights reserved.'
+  copyright: true
+
+# 搜尋設定
+local_search:
+  enable: true
+  preload: true
+  top_n_per_article: 1
+
+theme_color: 
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
