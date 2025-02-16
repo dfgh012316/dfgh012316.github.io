@@ -6,9 +6,9 @@
 title: Jerry's Tech Blog
 subtitle: ''
 description: ''
-keywords:
+keywords: ["k8s", "DevOps", "SRE"]
 author: Jerry Chuang
-language: zh
+language: zh-TW
 timezone: ''
 
 # URL

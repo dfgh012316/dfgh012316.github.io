@@ -1,15 +1,17 @@
 avatar:
-  # 頭像圖片鏈接
   img: /img/avatar.jpeg
-  # 是否啟用頭像效果
   effect: false
 
-# 禁用文章頂部圖片
 disable_top_img: true
 
 menu:
   Home: / || fas fa-home
   About: /about/ || fas fa-id-card
+  Tags: /tags/ || fas fa-tags
+
+social:
+  fab fa-github: https://github.com/dfgh012316 || Github || "#hdhfbb"
+  fas fa-envelope: mailto:jerrychuang@jerrytech.me || Email || "#000000"
 
 # 程式碼設定
 # 程式碼高亮主題
@@ -22,10 +24,15 @@ highlight_lang: true
 highlight_height_limit: 200
 
 darkmode:
-  # 是否啟用暗黑模式
   enable: true
   # 切換暗黑/明亮模式的按鈕
   button: true
+
+post_copyright:
+  enable: false
+
+share:
+  use: 
 
 # 文章設定
 toc:
@@ -53,19 +60,15 @@ aside:
     # 分類頁面是否顯示側邊欄
     category: true
   card_author:
-    # 是否顯示作者信息卡片
     enable: true
-    # 作者描述
     description: DevOps/SRE
     button:
       enable: true
-      icon: fab fa-github
-      text: GitHub
-      link: https://github.com/dfgh012316
+      icon: fab fa-linkedin
+      text: Linkedin
+      link: https://www.linkedin.com/in/chien-yu-chuang-00413120a/
   card_announcement:
-    # 是否顯示公告卡片
     enable: false
-    # 公告內容
     content: This is my Blog
   card_recent_post:
     # 是否顯示最近文章卡片
